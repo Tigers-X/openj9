@@ -63,6 +63,6 @@ jobs:
                       issue_number: sandboxIssueNumber,
                       owner: sandboxOwner,
                       repo: sandboxRepo,
-                      body: `Error: ${error.message}`,
+                      body: `The TriagerX model is currently not responding to the issue ${issueNumber}. Please try again later.`
                     });
                   }
